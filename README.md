@@ -6,3 +6,4 @@ Creating a basic website using some of semantic HTML elements like:
 - nav;
 - strong;
 - em.
+- aside
