@@ -8,16 +8,18 @@
     <title>The Basic Language of the Web: HTML</title>
   </head>
   <body>
-    <header>
+    <header class="main-header">
       <!--Creating a Website with the basic of HTML-->
       <h1>📘 The Code Magazine</h1>
       <!--Each Text must have only one h1 in their content (good practice)-->
-      <a href="blog.html">Blog</a>
-      <a href="#">Challenges</a>
-      <a href="#">Flexbox</a>
-      <a href="#">CSS Grid</a>
-      <!--Creating a hiperlink to a internal site-->
-      <!--Put (target="_blank") before the link if is necessary to open a new window-->
+      <nav>
+        <a class="lists" href="blog.html">Blog</a>
+        <a class="lists" href="#">Challenges</a>
+        <a class="lists" href="#">Flexbox</a>
+        <a class="lists" href="#">CSS Grid</a>
+        <!--Creating a hiperlink to a internal site-->
+        <!--Put (target="_blank") before the link if is necessary to open a new window-->
+      </nav>
     </header>
 
     <article>
@@ -79,7 +81,7 @@
       <!--Creating a list with a ordinate list-->
       <p>
         You can learn more at the
-        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+        <a id="test" href="https://developer.mozilla.org/en-US/docs/Web/HTML"
           >MDN Web Docs.</a
         >
       </p>
@@ -134,6 +136,8 @@
     </aside>
     <br />
     <br />
-    <footer>Copyright &copy; 2022 by The Code Magazine.</footer>
+    <footer>
+      <p id="copyright">Copyright &copy; 2022 by The Code Magazine.</p>
+    </footer>
   </body>
 </html>

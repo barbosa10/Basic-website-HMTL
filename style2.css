@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+  border: 5px solid black;
+}
+h2 {
+  text-align: center;
+  background-color: rgb(230, 227, 227);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.price {
+  font-size: 24px;
+}
+
+.shipping {
+  font-size: 12px;
+  color: #777;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.info:link,
+.info:visited {
+  color: black;
+}
+
+.info:hover,
+.info:active {
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.list1 {
+  list-style: square;
+}
+.button1 {
+  font-size: 20;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: black;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
