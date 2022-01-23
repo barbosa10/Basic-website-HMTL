@@ -1,7 +1,16 @@
+/*universal element*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: sans-serif;
-  width: 80%;
   color: #444;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 h1,
@@ -10,14 +19,38 @@ h3 {
   color: #1098ad;
 }
 
-h1 {
-  font-size: 28px;
-  text-transform: uppercase;
-  font-style: italic;
+/*centering the page*/
+.container {
+  width: 850px;
+  margin: 0 auto;
+  border-left: 2px solid #dddada;
+  border-right: 2px solid #dddada;
+  padding: 0 15px;
 }
 
+h1 {
+  font-size: 35px;
+  text-transform: uppercase;
+  font-style: italic;
+  float: center;
+  padding-bottom: 20px;
+}
+
+/*add a background/padding in the website*/
+.main-header {
+  background-color: #ece8e8;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+  border-top: 5px solid #1098ad;
+}
+
+.post-header {
+  margin-bottom: 40px;
+}
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -33,30 +66,37 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
 }
 
 li {
   font-size: 20;
+  margin-bottom: 10px;
+}
+
+li:last-child {
+  margin-bottom: 0;
 }
 
 #copyright {
   font-size: 16px;
 }
 
-.main-header {
-  background-color: #ece8e8;
-} /*add a background in the website*/
-
+/*add border to a text*/
 aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-} /*add border to a text*/
+  padding: 50px 0;
+  margin: 10px 0;
+  width: 500px;
+}
 
+/*a: style of the link*/
 a:link {
   color: #3d55da;
   text-decoration: none;
-} /*a: style of the link*/
+}
 
 a:visited {
   color: #3d55da;
@@ -68,8 +108,14 @@ a:hover {
   text-decoration: underline;
 }
 
-h1 {
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.img-code {
+  padding: 0 80px;
   width: 80%;
-  float: center;
-  text-align: center;
+  height: auto;
 }
