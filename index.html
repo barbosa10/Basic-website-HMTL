@@ -16,136 +16,177 @@
         <nav>
           <a class="lists" href="blog.html">Blog</a>
           <a class="lists" href="#">Challenges</a>
-          <a class="lists" href="#">Flexbox</a>
-          <a class="lists" href="#">CSS Grid</a>
+          <a class="lists" href="flexbox.html">Flexbox</a>
+          <a class="lists" href="css-grid.html">CSS-Grid</a>
           <!--Creating a hiperlink to a internal site-->
           <!--Put (target="_blank") before the link if is necessary to open a new window-->
         </nav>
       </header>
 
-      <article>
-        <header class="post-header">
-          <h2>The Basic Language of the Web: HTML</h2>
-          <figure>
-            <img
-              src="img/fernanda-bloger.jpg"
-              alt="Fernanda Bloger"
-              width="50"
-              height="50"
-            />
-          </figure>
+      <div class="row">
+        <article>
+          <header class="post-header">
+            <h2>The Basic Language of the Web: HTML</h2>
+            <div class="img-header">
+              <figure>
+                <img
+                  src="img/fernanda-bloger.jpg"
+                  alt="Fernanda Bloger"
+                  width="50"
+                  height="50"
+                  class="author-image"
+                />
+              </figure>
 
+              <p class="author">
+                Posted by <strong>Fernanda Bloger</strong> on Monday, January
+                24st 2022
+              </p>
+            </div>
+            <figure>
+              <img
+                class="img-code"
+                src="img/post-img.jpg"
+                alt="HTML website"
+                width="700"
+                height="250"
+              />
+              <!--Add images in the website using the atribute source and configure it-->
+            </figure>
+          </header>
           <p>
-            Posted by <strong>Fernanda Bloger</strong> on Monday, January 24st
-            2022
+            All modern websites and web applications are built using three
+            <em>fundamental</em>
+            technologies: HTML, CSS and JavaScript. These are the languages of
+            the web.
           </p>
-          <figure>
-            <img
-              class="img-code"
-              src="img/post-img.jpg"
-              alt="HTML website"
-              width="700"
-              height="250"
-            />
-            <!--Add images in the website using the atribute source and configure it-->
-          </figure>
-        </header>
-        <p>
-          All modern websites and web applications are built using three
-          <em>fundamental</em>
-          technologies: HTML, CSS and JavaScript. These are the languages of the
-          web.
-        </p>
-        <p>
-          In this post, let's focus on HTML. We will learn what HTML is all
-          about, and why you too should learn it.
-        </p>
+          <p>
+            In this post, let's focus on HTML. We will learn what HTML is all
+            about, and why you too should learn it.
+          </p>
 
-        <h3>What is HTML?</h3>
-        <p>
-          HTML stands for <strong>H</strong>yper<strong>T</strong>ext
-          <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
-          language that web developers use to structure and describe the content
-          of a webpage (not a programming language).
-        </p>
-        <p>
-          HTML consists of elements that describe different types of content:
-          paragraphs, links, headings, images, video, etc. Web browsers
-          understand HTML and render HTML code as websites.
-        </p>
-        <p>In HTML, each element is made up of 3 parts:</p>
+          <h3>What is HTML?</h3>
+          <p>
+            HTML stands for <strong>H</strong>yper<strong>T</strong>ext
+            <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup
+            language that web developers use to structure and describe the
+            content of a webpage (not a programming language).
+          </p>
+          <p>
+            HTML consists of elements that describe different types of content:
+            paragraphs, links, headings, images, video, etc. Web browsers
+            understand HTML and render HTML code as websites.
+          </p>
+          <p>In HTML, each element is made up of 3 parts:</p>
 
-        <ol>
-          <li>The opening tag</li>
-          <li>The closing tag</li>
-          <li>The actual element</li>
-        </ol>
-        <!--Creating a list with a ordinate list-->
-        <p>
-          You can learn more at the
-          <a id="test" href="https://developer.mozilla.org/en-US/docs/Web/HTML"
-            >MDN Web Docs.</a
-          >
-        </p>
-        <!--Creating a hiperlink to a external site-->
-        <!--Put (target="_blank") before the link if is necessary to open a new window-->
-        <h3>Why should you learn HTML?</h3>
-        <p>
-          There are countless reasons for learning the fundamental language of
-          the web. Here are 5 of them:
-        </p>
-        <ul>
-          <li>To be able to use the fundamental web dev language</li>
-          <li>
-            To hand-craft beautiful websites instead of relying on tools like
-            Worpress or Wix
-          </li>
-          <li>To build web applications</li>
-          <li>To impress friends</li>
-          <li>To have fun 😃</li>
-        </ul>
-        <!--Creating a list with a NO ordinate list-->
+          <ol>
+            <li>The opening tag</li>
+            <li>The closing tag</li>
+            <li>The actual element</li>
+          </ol>
+          <!--Creating a list with a ordinate list-->
+          <p>
+            You can learn more at the
+            <a
+              id="test"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              >MDN Web Docs.</a
+            >
+          </p>
+          <!--Creating a hiperlink to a external site-->
+          <!--Put (target="_blank") before the link if is necessary to open a new window-->
+          <h3>Why should you learn HTML?</h3>
+          <p>
+            There are countless reasons for learning the fundamental language of
+            the web. Here are 5 of them:
+          </p>
+          <ul>
+            <li>To be able to use the fundamental web dev language</li>
+            <li>
+              To hand-craft beautiful websites instead of relying on tools like
+              Worpress or Wix
+            </li>
+            <li>To build web applications</li>
+            <li>To impress friends</li>
+            <li>To have fun 😃</li>
+          </ul>
+          <!--Creating a list with a NO ordinate list-->
 
-        <p>Hopefully you learned something new here. See you next time!</p>
-      </article>
+          <p>Hopefully you learned something new here. See you next time!</p>
+        </article>
 
-      <aside>
-        <h4>Related posts</h4>
-        <ul>
-          <li>
-            <img
-              src="img/related-1.jpg"
-              alt="Person programming"
-              width="100"
-              height="100"
-            />
-            <a href="#">How to Learn Web Development</a>
-            <p>By Jonas blogger</p>
-          </li>
-          <li>
-            <img
-              src="img/related-2.jpg"
-              alt="Lightning"
-              width="100"
-              height="100"
-            />
-            <a href="#">The Unknown Powers of CSS</a>
-            <p>By Jim blogger</p>
-          </li>
-          <li>
-            <img
-              src="img/related-3.jpg"
-              alt="JavaScript code"
-              width="100"
-              height="100"
-            />
-            <a href="#">Why JavaScript is Awesome</a>
-            <p>By Matilda blogger</p>
-          </li>
-        </ul>
-      </aside>
-      <br />
-      <br />
+        <aside>
+          <h4>Related posts</h4>
+          <ul class="related">
+            <li class="related-li">
+              <img
+                src="img/related-1.jpg"
+                alt="Person programming"
+                width="100"
+                height="100"
+              />
+              <div>
+                <a href="#" class="related-link"
+                  >How to Learn Web Development</a
+                >
+                <p class="related-author">By Jonas blogger</p>
+              </div>
+            </li>
+            <li class="related-li">
+              <img
+                src="img/related-2.jpg"
+                alt="Lightning"
+                width="100"
+                height="100"
+              />
+              <div>
+                <a href="#" class="related-link">The Unknown Powers of CSS</a>
+                <p class="related-author">By Jim blogger</p>
+              </div>
+            </li>
+            <li class="related-li">
+              <img
+                src="img/related-3.jpg"
+                alt="JavaScript code"
+                width="100"
+                height="100"
+              />
+              <div>
+                <a href="#" class="related-link">Why JavaScript is Awesome</a>
+                <p class="related-author">By Matilda blogger</p>
+              </div>
+            </li>
+          </ul>
+        </aside>
+        <div class="container-an">
+          <p class="title1">All Star sneakers promotion</p>
+          <div class="container-flex">
+            <div class="product-photo">
+              <img
+                src="img/relater-4.jpg"
+                alt="Chuck Taylor Shoes"
+                height="170"
+                width="170"
+                class="product-img"
+              />
+            </div>
+            <div class="product-info">
+              <div class="product-price">
+                <p class="price"><strong>$65,00</strong></p>
+                <p class="shipping">Free shipping</p>
+              </div>
+              <p class="sale">Sale</p>
+              <p class="product-description">
+                Ready to dress up or down, these classic canvas Chucks are an
+                everyday wardrobe staple.
+              </p>
+            </div>
+          </div>
+          <form method="get" action="index2.html">
+            <button class="button1">BUY NOW</button>
+          </form>
+        </div>
+      </div>
       <footer>
         <p id="copyright">Copyright &copy; 2022 by The Code Magazine.</p>
       </footer>
