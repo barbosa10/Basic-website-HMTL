@@ -12,10 +12,6 @@ body {
   color: #444;
 }
 
-article {
-  margin-bottom: 20px;
-}
-
 h1,
 h2,
 h3 {
@@ -47,7 +43,6 @@ nav {
 .main-header {
   background-color: #ece8e8;
   padding: 20px 40px;
-  margin-bottom: 40px;
   height: 150px;
   border-top: 5px solid #1098ad;
 }
@@ -170,7 +165,8 @@ li:last-child {
   font-style: italic;
 }
 
-/*Table right*/
+/*FLEXBOX*/
+/*
 .row {
   display: flex;
   gap: 30px;
@@ -186,9 +182,22 @@ li:last-child {
   flex: 1;
   margin-bottom: 0px;
 }
+*/
+
+/*CSS GRID LAYOUT*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 50px;
+  row-gap: 60px;
+  align-items: start;
+}
+
+.main-header {
+  grid-column: 1 / span 2;
+}
 
 /*END OF THE CSS MAIN WEBSITE*/
-
 /*FIGURE BOTTOM*/
 .container-an {
   font-family: sans-serif;
